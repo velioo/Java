@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class BanInside2 {
 	int petolevki = 10;
 	int dvadesetolevki = 10;
@@ -343,12 +342,12 @@ public class BanInside2 {
 					broiizban20 = brizbank20[izbor];
 					break;
 				case 505:
-					System.out.printf("Banknoti: %d x 50 + %d x 20\n", brizbank[izbor], brizbank5[izbor]);
+					System.out.printf("Banknoti: %d x 50 + %d x 5\n", brizbank[izbor], brizbank5[izbor]);
 					broiizban50 = brizbank[izbor];
 					broiizban5 = brizbank5[izbor];
 					break;
 				case 205:	
-					System.out.printf("Banknoti: %d x 50 + %d x 20\n", brizbank20[izbor], brizbank5[izbor]);
+					System.out.printf("Banknoti: %d x 20 + %d x 5\n", brizbank20[izbor], brizbank5[izbor]);
 					broiizban20 = brizbank20[izbor];
 					broiizban5 = brizbank5[izbor];
 					break;
